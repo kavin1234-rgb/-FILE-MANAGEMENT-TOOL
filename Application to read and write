@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 void writeFile(const string &filename) {
-    ofstream file(filename); // Open file in write mode
+    ofstream file(filename); 
     if (!file) {
         cout << "Error opening file!" << endl;
         return;
